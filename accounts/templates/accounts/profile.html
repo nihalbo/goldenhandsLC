@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Profile</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <h1>Profile</h1>
+  <p>Username: {{ user }}</p>
+  <p>First name: {{ user.first_name }}</p>
+  <p>Last name: {{ user.last_name }}</p>
+  <p>Email: {{ user.email }}</p>
+  <h1>
+    Stats
+  </h1>
+  <p>Ranking in Loudoun county: Ill add some stats and yada yada</p>
+  <p>
+    Hours: when we get some stats and yada yada
+  </p>
+  <p>
+    Kinds of places interested in volunteering in: Ill add this form in later chill the f down its 11:40 pm im going to sleep
+  </p>
+  <p>
+    Past places of volunteering work:
+  </p>
+  <p>
+    Future places of volunteering work:
+  </p>
+  <p>
+    Ill add a friending feature eventually, and make this a whole lot niceer, not right now, gn.
+  </p>
+
+</div>
+
+
+{% endblock %}
