@@ -26,8 +26,11 @@ SECRET_KEY = ')&cz!r^x1(@d+b&@er$@*4d25l!_c$dp+ywj1qfdttshc=p4s1'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    '127.0.0.1',
+    '68.183.158.177',
+    'goldenhandslc.org',
     #'127.0.0.1'
+    'www.goldenhandslc.org',
 ]
 
 
@@ -121,6 +124,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
