@@ -6,7 +6,23 @@
 
 
 {% block body %}
+<div class="float-left">
+  <div class="jumbotron">
+    <h1></h1>
+    <p></p>
+    <ul>
+    </ul>
   <img src="https://gm1.ggpht.com/w_jyTiODVaQFsM9VKbygPRuJACU4go6HxXYMiIaO4E75dXL56uuBphEMDzPICf0DTFxXdr_UQ-DREHEO_3UPwXA9sMo4lm6NXNNEixtM5JtyRnOWNI8Wv_N0bJDOuci9L943HsvsJhTegAjdRldo3VZ0MLmGdJSC7-8peE1UtD4NVPDJ_lGU2HciXu4q2qACmDAiDXC5Tf_G8uxt67r60iaVIABr1hOMxEcpJgiixl1G4VzS8gj3aQlk2s5sCXmqy3GNjqrCM8MUdbpcqQWy_RfPBLC6ri0-oXyFekMRAuV5yQYeFQgzX-LDcG4v_fQeyJsohUemYUrpvmad8L9Bn3CNPyMqf4wlBpCUQceqBEeNIAJ0Bd5ZfrAlVXyPlGIYuX9n0IeTGCrmcHrmh3cRrdKQcL2rRQShtus7nIr9gDL5kem-nV-zRYv3dVzhHHDozYSGjas7j5k9AoYbYyd2yt-8Na7ly3A1gvRNkPPN5WDkRSzC6ecyTh4wsd2YaONv0ynRTk5Mnw9655oHC72aiNwyDTUtI81WjRSoa4-eXNHz84wrtDwkPoJij0KPxnlckrSoHjYZ6BqoydGIkE186L1frg_0s9Gw8VVm7q-k3EXmbWktMP2Du5xowJtoUfhfYARaSRneUCCmtkR-ClEtAd19r-U7RlWVPHgetDaZgkMC1LAFtJbQr8lDkUTG4EWM2Bo1uYvjAiMinIM5YD2G5-hlK01l6mW4CcAN=s0-l75-ft-l75-ft" alt="Volunteering stats"
-  style="width:200px;height:100px;">
+  style="width:600px;height:200px;">
+  </div>
+  <h1></h1>
+  <p></p>
+  <ul>
+    <li></li>
+      <ul>
+        <li>A way for everybody (you don't have to register) to find nearby volunteering opportunities and tasks (such as gathering food for homeless shelters), depending on the specfic person's age and interests</li>
+        <li>A continuous system that encourages its users to volunteer through the application of onine badges and leaderboards stats (at the user's wish)</li>
+  </ul>
+</div>
 {% endblock %}
 
